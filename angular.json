@@ -18,7 +18,10 @@
                 "src"
               ]
             },
-            "outputPath": "dist/gentlemens-order-wholecuts",
+            "outputPath": {
+              "base": "dist/gentlemens-order-wholecuts",
+              "browser": ""
+            },
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
